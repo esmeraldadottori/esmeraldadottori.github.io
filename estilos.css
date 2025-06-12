@@ -9,7 +9,9 @@
 }
 
 /*Importar tipografía de google fonts vía @import (sin etiquetas <style>)*/
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;700&display=swap');
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Savate:ital,wght@0,200..900;1,200..900&display=swap');
+</style>
 /*Esto me permite utilizar la tipografía en todo el contenido de body. Como standard vamos a usar la 100*/
 
 body {
@@ -28,33 +30,33 @@ body {
 /*Este es un id único en el HTML, representado por #nombre*/
 /*Este color está declarado en #Hex*/
 #color1 {
-    background-color: #E03216;
+    background-color: #89006f;
 }
 /*Este color está declarado con una palabra clave*/
 #color2 {
-    background-color: yellowgreen;
+    background-color: skyblue;
 }
 /*Este color está declarado con valores RGB (XX, XX, XX)*/
 #color3 {
-    background-color: rgb(23, 193, 223);
+    background-color: rgb(54, 54, 198);
 }
 /*Este color está declarado en RGB, y tiene transparencia de 0.705*/
 #color4 {
-    background-color: rgba(251, 255, 0, 0.705);
+    background-color: rgba(54, 198, 64, 0.200);
 }
 
 /*ESTILOS DE BARRA DE NAVEGACIÓN*/
 nav {
     /*Color de texto declarado en #Hex*/
-    color: #ffffff;
+    color: #c68f36;
 }
 
 /*ESTILOS LINKS EN BARRA DE NAVEGACIÓN*/
 nav a{
     /*Color te texto*/
-    color: #ffffff;
+    color: #c68f36;
     /*Decoración de texto: subrayado | tachado | etc.*/
-    text-decoration: none;
+    text-decoration: subrayado;
     /*Tipografía*/
     font-family: 'Montserrat', Arial, Helvetica, sans-serif;
     /*Peso de la tipografía (tiene que estar linkeada la variable)*/
@@ -70,7 +72,7 @@ nav a{
 /*Cambios al pasar el mouse sobre el elemento (hover)*/
 nav a:hover{
     /*Cambio de color*/
-    color: #7c7c7c;
+    color: #368cc6;
 }
 
 /*ESTILOS LOGO BARRA DE NAVEGACIÓN*/
@@ -78,7 +80,7 @@ nav a:hover{
     /*Altura de imagen relativa al espacio disponible: "100% del espacio"*/
     height: 100%;
     /*Altura máxima que puede alcanzar la imagen: 80px*/
-    max-height: 80px;
+    max-height: 150px;
     /*Posicionamiento 10px abajo de dónde debería estar*/
     position: relative;
     top: 10px;
@@ -87,7 +89,7 @@ nav a:hover{
 /*ESTILOS DE BANNER*/
 .banner {
     /*Imagen de fondo*/
-    background-image: url(media/background_first.jpg);
+    background-image: url(media/edificio%20fadu.jpg);
     /*Posición del fondo x|y*/
     background-position: center bottom;
     /*¿Repetir fondo? (tramas)*/
@@ -117,15 +119,15 @@ nav a:hover{
 /*ESTILOS DEL BOTON*/
 .btn {
     /*Color de fondo*/
-    background-color: rgba(255, 0, 0, 0.664);
+    background-color: rgba(102, 54, 198, 0.900);
     /*Color de tipografía*/
-    color: white;
+    color: yellow;
     /*Decoracion del texto*/
     text-decoration: none;
     /*Alineación del texto*/
     text-align: center;
     /*Borde redondeado*/
-    border-radius: 5px;
+    border-radius: 8px;
     /*Tamaño de fuente*/
     font-size: 0.8rem;
     /*PEso de fuente*/
